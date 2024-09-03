@@ -1,0 +1,26 @@
+{
+  "name": "anatta",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/app.js",
+  "scripts": {
+    "dev": "node --no-warnings --loader ts-node/esm src/app.ts",
+    "start": "node dist/app.js",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Nathan Gilford",
+  "license": "ISC",
+  "description": "A test for Anatta",
+  "devDependencies": {
+    "@types/node": "^22.5.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@types/node-fetch": "^2.6.11",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2",
+    "tsconfig-paths": "^4.2.0"
+  }
+}
