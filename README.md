@@ -27,7 +27,11 @@ This project is a Node.js application that interacts with the Shopify GraphQL AP
   ```sh
   npm run dev -- --name product-name
    ```
-5. Alternatively build and run
+5. Alternatively build and run:
+   ```sh
+   npm run build
+   npm run start -- --name product-name
+   ```
 
 ## Configuration
 
