@@ -15,16 +15,23 @@ This project is a Node.js application that interacts with the Shopify GraphQL AP
 1. Clone the repository:
    ```sh
    git clone 
-   cd shopify-product-fetcher```
+   cd shopify-product-fetcher
+   ```
 
 2. Install dependencies
-  ```npm install```
+  ```sh
+   npm install
+   ```
 
-3. Run the application in development mode:
-  ```npm run dev -- --name product-name```
+4. Run the application in development mode:
+  ```sh
+      npm run dev -- --name product-name
+   ```
 
-4. Run the built application:
-  ```npm run dev -- --name product-name```
+6. Run the built application:
+  ```sh
+   npm run dev -- --name product-name
+```
 
 ## Configuration
 
